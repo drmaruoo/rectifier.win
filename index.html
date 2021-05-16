@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Windows 10 Rectifier</title>
+    <script src="jquery.js"></script>
+
+    <div id="metadata"></div>
+
+    <script>
+        $(function() {
+            $("#metadata").load("metadata");
+            $("#header").load("header");
+            $("#footer").load("footer");
+        });
+    </script>
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif" class="yellow bg-navy">
+    <div class="pa3 center measure-wide lh-solid tj">
+
+        <div id="header"></div>
+
+        <article class="bb b--light-yellow pv1">
+            <a class="yellow link" href="https://github.com/WereDev/Wu10Man">
+                <div class="dim">
+                    <div class="flex flex-column">
+                        <h2 class="f4 lh-solid mb1">Wu10Man</h2>
+                        <p class="f6 light-yellow mt1 mb1">by WereDev</p>
+                        <p class="f7 light-yellow mt1">executable</p>
+                    </div>
+                    <p class="yellow lh-copy mt0">disable services, defer updates without time limit, [beta] declutter, [beta] shutdown update services, user-friendly gui</p>
+                </div>
+            </a>
+        </article>
+        <article class="bb b--light-yellow pv1">
+            <a class="yellow link" href="https://www.oo-software.com/en/shutup10">
+                <div class="dim">
+                    <div class="flex flex-column">
+                        <h2 class="f4 lh-solid mb1">ShutUp10</h2>
+                        <p class="f6 light-yellow mt1 mb1">by O&O</p>
+                        <p class="f7 light-yellow mt1">executable</p>
+                    </div>
+                    <p class="yellow lh-copy mt0">security settings, privacy settings, disable telemetry, disable location services and much more, user-friendly gui</p>
+                </div>
+            </a>
+        </article>
+
+    </div>
+
+    <div id="footer"></div>
+
+</body>
+
+</html>

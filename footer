@@ -1,0 +1,7 @@
+<footer class="pv4 ph3 ph5-m ph6-l">
+    <small class="f6 db tc">© 2021 <b class="">Marcin Domarski</b>, All Rights Reserved</small>
+    <div class="tc mt3">
+        <a title="GitHub" class="f7 dib ph2 yellow link dim" href="https://github.com/drmaruoo">GitHub</a>
+        <a title="Twitch" class="f7 dib ph2 yellow link dim" href="https://www.twitch.tv/domartechtips">Twitch</a>
+    </div>
+</footer>
